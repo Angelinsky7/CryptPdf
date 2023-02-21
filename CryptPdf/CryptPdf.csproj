@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Title>CryptPdf</Title>
+		<Description>A simple cli netcore app for adding user password to a pdf</Description>
+		<Copyright>MIT</Copyright>
+		<PackageTags>crypt;pdf</PackageTags>
+		<Authors>Angelinsky7</Authors>
+		<Company>Darkink</Company>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CommandLineParser" Version="2.9.1" />
+		<PackageReference Include="PdfSharpCore" Version="1.3.47" />
+	</ItemGroup>
+
+</Project>
