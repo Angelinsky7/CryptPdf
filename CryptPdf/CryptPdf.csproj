@@ -11,7 +11,18 @@
 		<PackageTags>crypt;pdf</PackageTags>
 		<Authors>Angelinsky7</Authors>
 		<Company>Darkink</Company>
+		<PackageProjectUrl>https://github.com/Angelinsky7/CryptPdf</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/Angelinsky7/CryptPdf</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="CommandLineParser" Version="2.9.1" />
